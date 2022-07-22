@@ -1,6 +1,7 @@
 body {
     background-image: url(./images/wallpaperflare.com_wallpaper.jpg);
     background-attachment: fixed;
+    font-family: 'Poppins', serif !important;
 }
 
 /*spacer divs?-------------------------------*/
