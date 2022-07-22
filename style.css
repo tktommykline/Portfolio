@@ -36,6 +36,7 @@ body {
 /*projects cards------------------------------------------*/
 .projects-heading{
     color:white;
+    margin-left: 40px;
 }
 
 .card-container{
@@ -118,3 +119,39 @@ body {
     color: white;
     text-align: center;
 }
+    .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px;
+        margin: 5px;
+    }
+    .fa-linkedin:hover {
+        background: white;
+        color:#007bb5;
+    }
+
+    .fa-github{
+        color: white;
+        border-radius: 5px;
+        padding: 3px;
+        text-decoration: none;
+        margin: 5px;
+    }
+    .fa-github:hover {
+        background: white;
+        color: black;
+    }
+
+    .fa-envelope{
+        color: white;
+        border-radius: 5px;
+        padding: 3px;
+        text-decoration: none;
+        margin: 5px;
+    }
+    .fa-envelope-open:hover {
+        color: white;
+        margin: 5px;
+    }
