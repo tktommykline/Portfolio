@@ -9,13 +9,20 @@ body {
     width: 100%;
     height: 175px;
 }
-/*light switch*/
-.switch{
-    margin-top: 100px;
-    margin-left: 50px;
-    color: rgb(211, 211, 211);
-    border: none;
-    background: none;
+
+/*animation thingy?*/
+.animation {
+    color: yellow;
+    text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+    animation: glow 5s linear infinite;
+}
+@keyframes glow {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
 }
 
 /* name & title ------------------------------------*/
@@ -38,8 +45,6 @@ body {
     justify-content: center;
 }
 
-
-
 /*about me text-------------------------------------------*/
 .about{
     width: 100%;
@@ -49,7 +54,7 @@ body {
     align-items: flex-end;
 }
 .about-content{
-    color: rgba(45, 44, 44, 0.3);
+    color: white;
     width: 60%;
 }
 
@@ -101,9 +106,10 @@ body {
 
 .skills-container{
     width: 30%;
-    background-color: rgba(126,255,212,0.65);
+    background: none;
     border-radius: 10px;
     margin: 10px;
+    color: white;
 }
 
 .skills{
@@ -116,9 +122,10 @@ body {
 
 .learning-container{
     width: 30%;
-    background-color: rgba(126,255,212,0.65);
+    background: none;
     border-radius: 10px;
     margin: 10px;
+    color: white;
 }
 .learning{
     margin-left: 10px;
