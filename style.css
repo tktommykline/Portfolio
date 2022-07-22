@@ -47,14 +47,14 @@ body {
 
 .card{
     filter:blur(6px);
-    background-color:rgba(59, 167, 245, 0.6) !important;
+    background-color:rgba(40, 183, 114, 0.6) !important;
     padding: 5px;
     margin: 10px;
     opacity: 20%;
 }
 .card:hover{
     filter: blur(0);
-    background-color:rgba(59, 167, 245, 0.6) !important;
+    background-color:rgba(40, 183, 114, 0.6) !important;
     color: white;
     opacity: 100%;
 }
@@ -92,13 +92,6 @@ body {
 }
 .skills-heading{
     font-weight: bolder;
-}
-
-.fa-html5{
-
-}
-.fa-css{
-
 }
 
 .learning-container{
